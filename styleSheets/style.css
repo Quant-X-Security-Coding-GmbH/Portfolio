@@ -232,6 +232,11 @@ hr {
   padding: 20px;
 }
 
+#RnD {
+
+  text-align: justify; 
+}
+
 #RnD h3,
 #Conferences h3 {
   color: rgba(51, 102, 143, 0.9);
