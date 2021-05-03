@@ -53,7 +53,7 @@ body {
 	position: fixed;
 	top: 0px;
 	margin: 0px 0px 0px 0px;
-	background: #C0C0BE url("../images/quant-x-header-dark.jpg") no-repeat center top;
+	background: rgba(1, 3, 7, 1.0) url("../images/quant-x-header-dark.jpg") no-repeat center top;
 	background-size: 100%;
   width: 100%;
   min-width: 100%;
@@ -270,26 +270,6 @@ hr {
 .abstract {
   box-sizing: border-box;
   text-align: center;
-}
-
-#Team {
-  margin-top: 0px;
-  background: url("../images/NYC_place.jpg") repeat right top;
-  width: 90%;
-}
-
-#TeamList {
-  width: 70%;
-  height: auto;
-  background-color: rgba(255, 255, 255, 0.95);
-  position: top;
-}
-
-#Contact {
-  margin-top: 0px;
-  background: url("../images/NYC_sun_trees.jpg") repeat right top;
-  width: 90%;
-  height: auto;
 }
 
 #ContactDiv {
@@ -616,72 +596,16 @@ a.textLink.publishedLine {
   #header a,
   #header a:hover {
     top: 20px;
-    background: rgba(255, 255, 255, 1.0) url("../images/TG000844_1000.jpg") no-repeat center top;
+    background: rgba(255, 255, 255, 1.0) url("../images/quant-x-header-dark.jpg") no-repeat center top;
     height: 126px;
     z-index: 0;
   }
 
   .centered {
     top: 146px !important;
-    padding: 0px 0px 5% 0px;
+    padding: 0px 0px;
   	margin-top: 0px;
     height: 100%;
-  }
-
-  #Team {
-    margin-top: 0px;
-    width: 100%;
-  }
-
-  #TeamList {
-    width: 90%;
-  }
-
-  #Contact {
-    margin-top: 0px;
-    width: 100%;
-    height: auto;
-  }
-
-  #ContactDiv {
-    width: 70%;
-  } 
-
-  .published {
-    top: 42px !important;
-    padding: 0px 0px 5% 0px;
-    margin-top: 0px;
-  }
-
-  img#portrait {
-    display: none;
-  }
-
-  img#mobile_portrait {
-    display: block;
-    position: relative;
-    max-width: 100%;
-    border: 1px solid rgba(30, 30, 38, 0.7);
-  }
-
-  img.crypto {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  img#CaLogo {
-    width: auto;
-  }
-
-  a#caLink {
-    display: block;
-  }
-
-  .impressum {
-    top: 40px !important;
-    margin-top: 0px;
   }
 
   a.textLink,
@@ -701,17 +625,25 @@ a.textLink.publishedLine {
   }
 
   .abstract {
-    padding: 0px 3%;
+    padding: 0px;
     text-align: left;
   }
 
   #aboutBackground {
     width: 94%;
-    margin: 0px 3%;
+    margin: 0px;
   }
 
   #aboutText {
     padding-bottom: 30px;
+  }
+
+  #About,
+  #Customers,
+  #Memberships,
+  #RnD,
+  #Conferences {
+    text-align: justify; 
   }
 
   ul.workFields li.workField {
