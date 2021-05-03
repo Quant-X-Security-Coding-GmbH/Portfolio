@@ -640,10 +640,18 @@ a.textLink.publishedLine {
 
   #About,
   #Customers,
-  #Memberships,
   #RnD,
   #Conferences {
     text-align: justify; 
+  }
+
+  #About p.comment,
+  #About h3,
+  #Customers h3,
+  #Memberships h3,
+  #RnD h3,
+  #Conferences h3 {
+    text-align: center; 
   }
 
   ul.workFields li.workField {
